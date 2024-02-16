@@ -35,7 +35,7 @@ To get a local copy up and running follow these simple steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/sebastiangolab/zeszycik-page.git
+   git clone https://github.com/sebastiangolab/react-boilerplate.git
    ```
 2. Install NPM packages
 
