@@ -9,10 +9,10 @@ Simple React boilerplate by create-react-app with configured Eslint, Prettier an
 ## Build With
 
 <ul>
-  <li><a href="#built-with">Create React App</a></li>
-  <li><a href="#built-with">Eslint</a></li>
-  <li><a href="#built-with">Prettier</a></li>
-  <li><a href="#built-with">Husky</a></li>
+  <li>Create React App</li>
+  <li>Eslint</li>
+  <li>Prettier</li>
+  <li>Husky</li>
 </ul>
 
 <!-- GETTING STARTED -->
