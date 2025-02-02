@@ -55,10 +55,10 @@
   },
   "lint-staged": {
     "*.{js, jsx, ts, tsx}": [
-      "eslint"
+      "npm run lint"
     ],
     "*.{json, js, jsx, ts, tsx, html}": [
-      "prettier --write --config ./.prettierrc"
+      "npm run format"
     ]
   }
 }
