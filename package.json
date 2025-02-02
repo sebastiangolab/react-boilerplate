@@ -23,7 +23,7 @@
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx,json}'",
     "lint:fix": "eslint --fix 'src/**/*.{js,jsx,ts,tsx,json}'",
     "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
-    "husky": "husky"
+    "prepare": "husky install"
   },
   "eslintConfig": {
     "extends": [
@@ -54,11 +54,21 @@
     "prettier": "^3.4.2"
   },
   "lint-staged": {
-    "src/**/*.{js, jsx, ts, tsx}": [
-      "npm run lint"
+    "*.ts": [
+      "prettier --write --config ./.prettierrc",
+      "eslint --fix"
     ],
-    "src/**/*.{json, js, jsx, ts, tsx, html}": [
-      "npm run format"
+    "*.tsx": [
+      "prettier --write --config ./.prettierrc",
+      "eslint --fix"
+    ],
+    "*.js": [
+      "prettier --write --config ./.prettierrc",
+      "eslint --fix"
+    ],
+    "*.jsx": [
+      "prettier --write --config ./.prettierrc",
+      "eslint --fix"
     ]
   }
 }
